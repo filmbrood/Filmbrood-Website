@@ -20,6 +20,7 @@ html
 
 .navlinks
 {
+  position: fixed;
   text-transform: uppercase;
   display: grid;
   font-size: 36px;
@@ -48,4 +49,22 @@ html
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cinema-portfolio-header
+{
+  text-align: center;
+}
+
+.cinema-portfolio
+{
+  display: grid;
+}
+
+.cinema-portfolio-item
+{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: grid;
+  grid: auto / 45% 55%;
 }
