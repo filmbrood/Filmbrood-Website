@@ -1,6 +1,6 @@
 @font-face {
   font-family: RobotoCondensed;
-  src: url(RobotoCondensed-Regular.ttf);
+  src: url("font/RobotoCondensed-Regular.ttf");
 }
 
 html
@@ -12,6 +12,10 @@ html
   margin-right: 5%;
 }
 
+a
+{
+  color: rgb(150, 150, 255);
+}
 .two-column-page
 {
   display: grid;
@@ -53,18 +57,27 @@ html
 
 .cinema-portfolio-header
 {
+  margin-top: 60px;
   text-align: center;
 }
 
 .cinema-portfolio
 {
   display: grid;
+  grid: auto / 50% 50%;
 }
 
 .cinema-portfolio-item
 {
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 30px;
+}
+
+.about-page
+{
   display: grid;
-  grid: auto / 45% 55%;
+  grid: auto / auto auto;
+}
+.about-page-item
+{
+  margin-right: 40px;
 }

@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <img class="header-image" src="Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
+
+  <!-- Header image -->
+  <img class="header-image" src="images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
+
+  <!-- Div for the whole page - divides into two columns via grid display -->
   <div class="two-column-page">
+
+    <!-- Div for navigation links on the lefthand side -->
     <div>
+
       <div class="navlinks">
         <a class="navlink-item" href="index.html">Cinematography</a>
-        <a class="navlink-item-active" href="color.html">Color</a>
+        <a class="navlink-item-active" href="color.html">Color Grading</a>
         <a class="navlink-item" href="about.html">About</a>
       </div>
+
     </div>
+
+    <!-- Div for cinematography reel and portfolio -->
+    <div>
+
+      <!-- Embedded Vimeo video for colorist reel -->
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/577076137?h=b6fd4598b1" width="1280px" height="720px" frameborder="0" allowfullscreen></iframe>
+
+      <!-- Portfolio header -->
+      <h1 class="cinema-portfolio-header">COLOR GRADING PORTFOLIO</h1>
+
+      <!-- Portfolio for cinematography work -->
+      <div class="cinema-portfolio">
+
+        <!-- Individual portfolio item, which is an embedded video placed in a div-->
+
+        <div class="cinema-portfolio-item">
+          <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/MxJ9XCgsm2g"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        </div>
+
+        <div class="cinema-portfolio-item">
+          <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/xSkrYvmVZvs"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
