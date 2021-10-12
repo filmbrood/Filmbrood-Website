@@ -80,7 +80,9 @@ a
 
   .video-reel
   {
-    margin-top: 5%;
+    padding:56.25% 0 0 0;
+    position:relative;
+    margin-right:5%
   }
 
   .about-page
@@ -105,11 +107,8 @@ a
 
 @media (max-width: 1280px)
 {
-
-
   .page
   {
-
     display: grid;
     text-align: center;
     height: 100%;
@@ -149,7 +148,6 @@ a
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     margin-top: 10%;
     transform: scale(300%);
   }
@@ -179,9 +177,8 @@ a
 
   .video-reel
   {
-    margin-top: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    padding:56.25% 0 0 0;
+    position:relative;
   }
 
   .about-page
