@@ -103,6 +103,10 @@ a
     margin-left: 30%;
   }
 
+  .about-page-image-content
+  {
+    box-shadow: 10px 10px orange;
+  }
 }
 
 @media (max-width: 1280px)
