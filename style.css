@@ -125,6 +125,11 @@ a
   {
     display: grid;
     grid: auto / 50% 50%;
+
+  .about-page-image-content
+  {
+    box-shadow: 10px 10px orange;
+
   }
 }
 
