@@ -71,11 +71,15 @@ a
   {
     display: grid;
     grid: auto / 50% 50%;
+    margin-bottom: 30%;
   }
 
   .cinema-portfolio-item
   {
     margin: 30px;
+  }.cinema-portfolio-item:hover{
+    transition: transform 0.5s;
+    transform: scale(110%);
   }
 
   .video-reel
@@ -103,6 +107,16 @@ a
     margin-left: 30%;
   }
 
+  .project-page
+  {
+    display: grid;
+  }
+
+  .project-page-gallery
+  {
+    display: grid;
+    grid: auto / 50% 50%;
+  }
 }
 
 @media (max-width: 1599px)
