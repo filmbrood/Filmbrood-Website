@@ -77,9 +77,13 @@ a
   .cinema-portfolio-item
   {
     margin: 30px;
+    text-transform: uppercase;
   }.cinema-portfolio-item:hover{
     transition: transform 0.5s;
     transform: scale(110%);
+  }.cinema-portfolio-item:not(hover){
+    transition: transform 0.5s;
+    transform: scale(100%);
   }
 
   .video-reel
@@ -112,6 +116,11 @@ a
     display: grid;
   }
 
+  .project-page-title
+  {
+    font-size: 48px;
+    line-height: 12px;
+  }
   .project-page-gallery
   {
     display: grid;
@@ -181,11 +190,12 @@ a
   .cinema-portfolio
   {
     display: grid;
-    grid: auto / 50% 50%;
   }
 
   .cinema-portfolio-item
   {
+    font-size: 36px;
+    text-transform: uppercase;
     margin: 30px;
   }
 
@@ -213,5 +223,20 @@ a
   .about-page-image
   {
 
+  }
+
+  .project-page
+  {
+    display: grid;
+  }
+
+  .project-page-title
+  {
+    font-size: 56px;
+  }
+  .project-page-gallery
+  {
+    display: grid;
+    grid: auto / 50% 50%;
   }
 }
