@@ -1,7 +1,2 @@
 # Filmbrood Website
-This is Dawn Moore's personal portfolio website, written in HTML and CSS.
-Open source and under the MIT license. Give credit where credit is due. Thanks!
-
-Things to do:
-- Additional portfolio items
-- Other fun ideas?
+A personal portfolio website for cinematography and color work. Specifically made for Dawn Moore, but can be repurposed and reused as governed by the MIT license, specified in the LICENSE file.
