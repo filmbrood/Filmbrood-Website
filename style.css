@@ -121,15 +121,16 @@ a
     font-size: 48px;
     line-height: 12px;
   }
+
   .project-page-gallery
   {
     display: grid;
     grid: auto / 50% 50%;
+  }
 
   .about-page-image-content
   {
     box-shadow: 10px 10px orange;
-
   }
 }
 
@@ -230,6 +231,11 @@ a
 
   }
 
+  .about-page-image-content
+  {
+    box-shadow: 10px 10px orange;
+  }
+  
   .project-page
   {
     display: grid;
