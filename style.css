@@ -125,7 +125,12 @@ a
   .project-page-gallery
   {
     display: grid;
-    grid: auto / 50% 50%;
+    grid: auto / 40% 40%;
+  }
+
+  .project-page-gallery-item
+  {
+    margin: 5%;
   }
 
   .about-page-image-content
@@ -235,7 +240,7 @@ a
   {
     box-shadow: 10px 10px orange;
   }
-  
+
   .project-page
   {
     display: grid;
@@ -248,5 +253,16 @@ a
   .project-page-gallery
   {
     display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+  }
+
+  .project-page-gallery-item
+  {
+    transform: scale(200%);
+    margin-bottom: 70%;
+
   }
 }
