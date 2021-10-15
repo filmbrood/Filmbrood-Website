@@ -130,7 +130,8 @@ a
 
   .project-page-gallery-item
   {
-    margin: 5%;
+    height: 250px;
+    margin-right: 5%;
   }
 
   .about-page-image-content
@@ -253,16 +254,12 @@ a
   .project-page-gallery
   {
     display: grid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 70%);
   }
 
   .project-page-gallery-item
   {
-    transform: scale(200%);
-    margin-bottom: 70%;
-
+    height: 500px;
+    transform: translate(17px, 0%);
+    margin-bottom: 5%;
   }
 }
