@@ -132,6 +132,7 @@ a
   {
     height: 250px;
     margin-right: 5%;
+    margin-top: 5%;
   }
 
   .about-page-image-content
@@ -251,6 +252,7 @@ a
   {
     font-size: 56px;
   }
+
   .project-page-gallery
   {
     display: grid;
@@ -261,5 +263,6 @@ a
     height: 500px;
     transform: translate(17px, 0%);
     margin-bottom: 5%;
+    margin-top: 5%;
   }
 }
