@@ -53,6 +53,18 @@ a
     color: rgb(245, 245, 245);
   }
 
+  .social-media-links
+  {
+    padding-top: 5%;
+    font-size: 16px;
+  }
+
+  .social-media-link-image
+  {
+    padding-right: 5%;
+    height: 50px;
+  }
+
   .header-image
   {
     left: 2%;
@@ -177,6 +189,19 @@ a
     text-decoration: none;
     opacity: 1.0;
     color: rgb(245, 245, 245);
+  }
+
+  .social-media-links
+  {
+    margin-top: 10%;
+    transform: translateX(3%);
+    font-size: 16px;
+  }
+
+  .social-media-link-image
+  {
+    height: 100px;
+    padding: 10%;
   }
 
   .header-image
