@@ -194,14 +194,14 @@ a
   .social-media-links
   {
     margin-top: 10%;
-    transform: translateX(3%);
+    transform: translateX(5%);
     font-size: 16px;
   }
 
   .social-media-link-image
   {
     height: 100px;
-    padding: 10%;
+    padding: 5%;
   }
 
   .header-image
