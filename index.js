@@ -9,8 +9,8 @@ const createNavLinkElement = (href, innerHTML, style) => {
 }
 
 let navLinkItems = [
-  createNavLinkElement("index.html", "Cinematography", "navlink-item"),
-  createNavLinkElement("color.html", "Color Grading", "navlink-item-active"),
+  createNavLinkElement("index.html", "Cinematography", "navlink-item-active"),
+  createNavLinkElement("color.html", "Color Grading", "navlink-item"),
   createNavLinkElement("about.html", "About", "navlink-item")
 ];
 
