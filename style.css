@@ -191,6 +191,38 @@ a
     color: rgb(245, 245, 245);
   }
 
+  @media (max-height: 800px)
+  {
+    .navlinks
+    {
+      position: static;
+      margin-top: 4%;
+      text-transform: uppercase;
+      display: grid;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .navlink-item
+    {
+      font-size: 24px;
+      opacity: 0.3;
+      text-decoration: none;
+      color: rgb(245, 245, 245);
+    } .navlink-item:hover{
+      transition: opacity 0.5s;
+      opacity: 1.0;
+    }
+
+    .navlink-item-active
+    {
+      font-size: 24px;
+      text-decoration: none;
+      opacity: 1.0;
+      color: rgb(245, 245, 245);
+    }
+  }
+
   .social-media-links
   {
     margin-top: 10%;
@@ -202,6 +234,22 @@ a
   {
     height: 100px;
     padding: 5%;
+  }
+
+  @media (max-height: 800px)
+  {
+    .social-media-links
+    {
+      margin-top: 5%;
+      font-size: 16px;
+      transform: translateX(-5%);
+    }
+
+    .social-media-link-image
+    {
+      padding-right: 5%;
+      height: 50px;
+    }
   }
 
   .header-image
@@ -217,6 +265,15 @@ a
   {
     margin-top: 5%;
     display: grid;
+  }
+
+  @media (max-height: 800px)
+  {
+    .portfolio-page
+    {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
   }
 
   .cinema-portfolio-header
@@ -258,6 +315,13 @@ a
     font-size: 48px;
   }
 
+  @media (max-height: 800px)
+  {
+    .about-page-item
+    {
+      font-size: 16px;
+    }
+  }
   .about-page-image
   {
 
