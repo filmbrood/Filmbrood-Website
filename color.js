@@ -1,22 +1,5 @@
-const createNavLinkElement = (href, innerHTML, style) => {
-  let navLinkItemElement = document.createElement("a");
+import { FWAPI } from "./fwapi.js";
 
-  navLinkItemElement.classList.add(style);
-  navLinkItemElement.href = href;
-  navLinkItemElement.innerHTML = innerHTML;
-
-  return navLinkItemElement;
-}
-
-let navLinkItems = [
-  createNavLinkElement("index.html", "Cinematography", "navlink-item"),
-  createNavLinkElement("color.html", "Color Grading", "navlink-item-active"),
-  createNavLinkElement("about.html", "About", "navlink-item")
-];
-
-let navlinkDivElem = document.getElementById("navlinks");
-
-for (let i = 0; i < 3; i++)
-{
-  navlinkDivElem.appendChild(navLinkItems[i]);
-}
+console.log("color.js loaded");
+FWAPI.ActivePageInt = 1;
+FWAPI.AppendNavlinks("navlinks");

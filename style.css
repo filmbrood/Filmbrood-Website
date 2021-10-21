@@ -98,6 +98,11 @@ a
     transform: scale(100%);
   }
 
+  .cinema-portfolio-item-image
+  {
+    height: 300px;
+  }
+
   .video-reel
   {
     padding:56.25% 0 0 0;
@@ -294,6 +299,11 @@ a
     margin: 30px;
   }
 
+  .cinema-portfolio-item-image
+  {
+    height: 300px;
+  }
+
   .video-reel
   {
     padding:56.25% 0 0 0;
@@ -322,6 +332,7 @@ a
       font-size: 16px;
     }
   }
+
   .about-page-image
   {
 
