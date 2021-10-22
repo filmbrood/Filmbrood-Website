@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href="images/Logo_Avatar2020_Alpha.png"/>
@@ -16,90 +15,10 @@
     <title>Filmbrood - Cinematography</title>
   </head>
 
-  <img class="header-image" src="images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
-
-  <!-- Div for the whole page - divides into two columns via grid display -->
-  <div class="page">
-
-    <!-- Div for navigation links on the lefthand side -->
-    <div>
-      <div id="navlinks" class="navlinks"></div>
-      <script src="index.js"></script>
-    </div>
-
-    <!-- Div for cinematography reel and portfolio -->
-    <div class="portfolio-page">
-
-      <!-- Embedded Vimeo video for cinematography reel -->
-      <div class="video-reel">
-        <iframe
-        src="https://player.vimeo.com/video/552708118?h=070a0f50b8&byline=0&portrait=0"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-        frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-        allowfullscreen></iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-
-      <h1 class="cinema-portfolio-header">PORTFOLIO</h1>
-
-      <div class="cinema-portfolio">
-
-        <!-- Getting Through -->
-        <div class="cinema-portfolio-item">
-          <a href="portfolio-pages/cinema/getting-through.html">
-            <img src="images/cinema-portfolio/getting_through.jpg" alt="Getting Through" height="300px"/>
-          </a>
-          <h2 class="cpi-centered-text">Getting Through</h2>
-          <p>Short, TBD</p>
-        </div>
-
-        <!-- Black Card -->
-        <div class="cinema-portfolio-item">
-          <a href="portfolio-pages/cinema/black-card.html">
-            <img src="images/cinema-portfolio/black-card.jpg" alt="Black Card" height ="300px"/>
-          </a>
-          <h2 class="cpi-centered-text">Black Card</h2>
-          <p>Feature, TBD</p>
-        </div>
-
-        <!-- Sheena's Secret -->
-        <div class="cinema-portfolio-item">
-          <a href="portfolio-pages/cinema/sheenas-secret.html">
-            <img src="images/cinema-portfolio/sheenas_secret.jpg" alt="Sheena's Secret" height ="300px"/>
-          </a>
-          <h2 class="cpi-centered-text">Sheena's Secret</h2>
-          <p>Short, TBD</p>
-        </div>
-
-        <!-- 3.5W Halloween Special -->
-        <div class="cinema-portfolio-item">
-          <a href="portfolio-pages/cinema/halloween-special.html">
-            <img src="images/cinema-portfolio/halloween-special.png" alt="Three and a Half Walls Halloween Special" height ="300px"/>
-          </a>
-          <h2 class="cpi-centered-text">Three and a Half Walls Halloween Special</h2>
-          <p>Short, 2020</p>
-        </div>
-
-        <!-- Sex Demon -->
-        <div class="cinema-portfolio-item">
-          <a href="portfolio-pages/cinema/sex-demon.html">
-            <img src="images/cinema-portfolio/sex-demon-7.png" alt="Sex Demon" height ="300px"/>
-          </a>
-          <h2 class="cpi-centered-text">Double Bill</h2>
-          <p>Short, 2019</p>
-        </div>
-
-        <!-- Sleep -->
-        <div class="cinema-portfolio-item">
-          <a href="portfolio-pages/cinema/sleep.html">
-            <img src="images/cinema-portfolio/sleep.jpg" alt="Sleep" height ="300px"/>
-          </a>
-          <h2 class="cpi-centered-text">Sleep</h2>
-          <p>Short, 2019</p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
+  <body>
+    <img class="header-image" src="images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
+    <div id="page" class="page"></div>
+    <script type="module" src="fwapi.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
