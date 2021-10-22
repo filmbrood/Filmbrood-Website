@@ -127,3 +127,37 @@ export class CinemaPortfolioItem
   #header;
   #desc;
 }
+
+export class EmbeddedVimeo
+{
+  // All parameters must be strings
+  constructor(embedSrc)
+  {
+    let iframeElem = FWAPI.CreateElement("iframe", "", "video-reel-content");
+    iframeElem.classList.add("video-reel-content");
+    iframeElem.src = embedSrc;
+    iframeElem.allow = "autoplay; fullscreen; picture-in-picture";
+    iframeElem.style = "border:none;"
+
+    this.videoDivContainer = FWAPI.CreateElement("div", "", "video-reel");
+    FWAPI.AppendElement(this.videoDivContainer, iframeElem);
+
+    this.scriptElem = FWAPI.CreateElement("script", "", "script");
+    this.scriptElem.src = "https://player.vimeo.com/api/player.js"
+  }
+
+  AppendTo(parent)
+  {
+    let parentElem;
+    if (typeof parent === "string")
+      parentElem = document.getElementById(parent);
+    else
+      parentElem = parent;
+
+    FWAPI.AppendElement(parentElem, this.videoDivContainer);
+    FWAPI.AppendElement(parentElem, this.scriptElem);
+  }
+
+  #scriptElem;
+  #videoDivContainer;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href="images/Logo_Avatar2020_Alpha.png"/>
@@ -14,41 +13,12 @@
     <meta property="og:type" content="website"/>
 
     <title>Filmbrood - Cinematography</title>
-
-
   </head>
 
   <body>
     <img class="header-image" src="images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
-
-    <!-- Div for the whole page - divides into two columns via grid display -->
-    <div class="page">
-
-      <!-- Div for navigation links on the lefthand side -->
-      <div><div id="navlinks" class="navlinks"></div></div>
-
-      <!-- Div for cinematography reel and portfolio -->
-      <div class="portfolio-page">
-
-        <!-- Embedded Vimeo video for cinematography reel -->
-        <div class="video-reel">
-          <iframe
-          src="https://player.vimeo.com/video/552708118?h=070a0f50b8&byline=0&portrait=0"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"
-          frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-
-        <h1 class="cinema-portfolio-header">PORTFOLIO</h1>
-
-        <div id = "cinema-portfolio" class="cinema-portfolio"></div>
-
-      </div>
-    </div>
-
+    <div id="page" class="page"></div>
     <script type="module" src="fwapi.js"></script>
     <script type="module" src="index.js"></script>
-
   </body>
 </html>
