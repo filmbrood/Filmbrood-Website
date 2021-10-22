@@ -1,59 +1,24 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href="images/Logo_Avatar2020_Alpha.png"/>
 
-    <title>Filmbrood - Color</title>
+    <meta property="og:title" content="filmbrood"/>
+    <meta property="og:image" content="images/Logo_2020.png"/>
+    <meta property="og:description" content="Making movies with heart since 2015."/>
+    <meta property="og:url" content="https://filmbrood.com"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:type" content="website"/>
+
+    <title>Filmbrood - Color Grading</title>
   </head>
 
-  <!-- Header image -->
-  <img class="header-image" src="images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
-
-  <!-- Div for the whole page - divides into two columns via grid display -->
-  <div class="page">
-
-    <!-- Div for navigation links on the lefthand side -->
-    <div>
-      <div id="navlinks" class="navlinks"></div>
-    </div>
-
-
-    <!-- Div for cinematography reel and portfolio -->
-    <div class="portfolio-page">
-
-      <!-- Embedded Vimeo video for colorist reel -->
-      <div class="video-reel">
-        <iframe
-          class="video-reel-content"
-          src="https://player.vimeo.com/video/577076137?h=b6fd4598b1&byline=0&portrait=0"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture">
-        </iframe>
-      </div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-
-    <!-- This section is under construction
-
-      <h1 class="cinema-portfolio-header">COLOR GRADING PORTFOLIO</h1>
-
-      <div class="cinema-portfolio">
-
-        <div class="cinema-portfolio-item">
-          <h1>!!! Under contstruction !!!</h1>
-        </div>
-
-        <div class="cinema-portfolio-item">
-          <h1>!!! Under construction !!!</h1>
-        </div>
-
-      </div>
-    -->
-    </div>
-  </div>
-
-  <script type="module" src="color.js"></script>
-  <script type="module" src="fwapi.js"></script>
-
+  <body>
+    <img class="header-image" src="images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
+    <div id="page" class="page"></div>
+    <script type="module" src="fwapi.js"></script>
+    <script type="module" src="color.js"></script>
+  </body>
 </html>
