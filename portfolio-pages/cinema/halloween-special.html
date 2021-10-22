@@ -15,48 +15,49 @@
 
     <title>Filmbrood - Cinematography</title>
   </head>
+  <body>
+    <img class="header-image" src="../../images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
 
-  <img class="header-image" src="../../images/Logo_2020.png" alt="Filmbrood Logo 2020" height="100px"/>
+    <!-- Div for the whole page - divides into two columns via grid display -->
+    <div class="page">
 
-  <!-- Div for the whole page - divides into two columns via grid display -->
-  <div class="page">
-
-    <!-- Div for navigation links on the lefthand side -->
-    <div>
-      <div class="navlinks">
-        <a class="navlink-item-active" href="../../index.html">Cinematography</a>
-        <a class="navlink-item" href="../../color.html">Color Grading</a>
-        <a class="navlink-item" href="../../about.html">About</a>
+      <!-- Div for navigation links on the lefthand side -->
+      <div>
+        <div id="navlinks" class="navlinks">
+        </div>
       </div>
+
+      <!-- Div for cinematography reel and portfolio -->
+      <div class="project-page">
+
+        <div class="project-page-title">
+          <h1>3.5W HALLOWEEN SPECIAL</h1>
+          <p>DIRECTED BY Dawn Moore</p>
+          <p>SHORT, 2020</p>
+          <p>FUJIFILM X-T3 w/ CANON FD PRIMES</p>
+        </div>
+
+        <div class="video-reel">
+          <iframe
+            src="https://www.youtube.com/embed/xSkrYvmVZvs"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="project-page-gallery">
+          <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special.png"/>
+          <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-2.png"/>
+          <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-3.png"/>
+          <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-4.png"/>
+          <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-5.png"/>
+        </div>
+
+      </div>
+
     </div>
-
-    <!-- Div for cinematography reel and portfolio -->
-    <div class="project-page">
-
-      <div class="project-page-title">
-        <h1>3.5W HALLOWEEN SPECIAL</h1>
-        <p>DIRECTED BY Dawn Moore</p>
-        <p>SHORT, 2020</p>
-        <p>FUJIFILM X-T3 w/ CANON FD PRIMES</p>
-      </div>
-
-      <div class="video-reel">
-        <iframe
-          src="https://www.youtube.com/embed/xSkrYvmVZvs"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"
-          frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="project-page-gallery">
-        <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special.png"/>
-        <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-2.png"/>
-        <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-3.png"/>
-        <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-4.png"/>
-        <img class="project-page-gallery-item" src="../../images/cinema-portfolio/halloween-special-5.png"/>
-      </div>
-
-    </div>
-
-  </div>
+    <script type="module" src="navlinks.js"></script>
+    <script type="module" src="/fwapi.js"></script>
+  </body>
+</html>

@@ -26,7 +26,7 @@ portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/getting-thro
 portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/black-card.html", "images/cinema-portfolio/black-card.jpg", "Black Card", "Feature, TBD"));
 portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sheenas-secret.html", "images/cinema-portfolio/sheenas_secret.jpg", "Sheena's Secret", "Short, TBD"));
 portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/halloween-special.html", "images/cinema-portfolio/halloween-special.png", "Three and a Half Walls Halloween Special", "Short, 2020"));
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sex-demon.html", "images/cinema-portfolio/sex-demon-7.png", "Sex Demon", "Short, 2019"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sex-demon.html", "images/cinema-portfolio/sex-demon-7.png", "Double Bill", "Short, 2019"));
 portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sleep.html", "images/cinema-portfolio/sleep.jpg", "Sleep", "Short, 2019"));
 
 FWAPI.AppendElement(portfolioPage, cinemaPortfolioHeader);

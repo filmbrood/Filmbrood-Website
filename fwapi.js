@@ -75,9 +75,9 @@ export let FWAPI = {
 
     // Create array for navigation link items
     let navLinkItems = [
-      this.CreateLinkElement("index.html", "Cinematography", "navlink-item"),
-      this.CreateLinkElement("color.html", "Color Grading", "navlink-item"),
-      this.CreateLinkElement("about.html", "About", "navlink-item")
+      this.CreateLinkElement("/index.html", "Cinematography", "navlink-item"),
+      this.CreateLinkElement("/color.html", "Color Grading", "navlink-item"),
+      this.CreateLinkElement("/about.html", "About", "navlink-item")
     ];
 
     // Iterate through navigation link items
