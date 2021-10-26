@@ -376,12 +376,12 @@ a
   .project-page-gallery
   {
     display: grid;
+    place-items: center;
   }
 
   .project-page-gallery-item
   {
     height: 500px;
-    transform: translate(17px, 0%);
     margin-bottom: 5%;
     margin-top: 5%;
   }
