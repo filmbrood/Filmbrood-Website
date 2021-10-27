@@ -1,0 +1,35 @@
+h1
+{
+  font-size: 56px;
+}
+
+p
+{
+  font-size: 20px;
+}
+
+.blog-index-page
+{
+
+}
+
+.blog-index-header
+{
+  text-align: center;
+}
+
+.blog-index-body
+{
+  display: grid;
+  place-items: center;
+}
+
+.blog-index-body-item
+{
+
+}
+
+.blog
+{
+  margin-right: 5%;
+}
