@@ -55,7 +55,7 @@ class BlogIndexBodyItem
 }
 
 let blogIndexBodyItems = [
-  new BlogIndexBodyItem("10.26.2021", "testblogpost.html", "../images/cinema-portfolio/sleep.jpg", "A Test Blog Post", "Lorem Ipsum and other cool junk")
+  new BlogIndexBodyItem("10.26.2021", "./posts/testblogpost.html", "../images/cinema-portfolio/sleep.jpg", "A Test Blog Post", "Lorem Ipsum and other cool junk")
 ];
 
 for (let i = 0; i < blogIndexBodyItems.length; i++)
