@@ -27,7 +27,7 @@ class BlogIndexBodyItem
     this.div = FWAPI.CreateElement("div", "", "blog-index-body-item");
     this.date = FWAPI.CreateElement("p", date, "p");
     this.link = FWAPI.CreateLinkElement(link, "", "a");
-    this.image = FWAPI.CreateImageElement(image, title, "blog-index-body-item-image", "200px");
+    this.image = FWAPI.CreateImageElement(image, title, "blog-index-body-item-image", "");
     this.header = FWAPI.CreateElement("h2", title, "h2");
     this.desc = FWAPI.CreateElement("p", desc, "p");
 
