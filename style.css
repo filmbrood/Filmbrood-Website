@@ -151,13 +151,13 @@ a
 
   .project-page-gallery
   {
-    display: grid;
+    margin-bottom: 10%;
     grid: auto / 40% 40%;
   }
 
   .project-page-gallery-item
   {
-    height: 250px;
+    height: 350px;
     margin-right: 5%;
     margin-top: 5%;
   }
