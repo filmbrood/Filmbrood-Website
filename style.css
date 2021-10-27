@@ -164,6 +164,12 @@ a
     height: 350px;
     margin-right: 5%;
     margin-top: 5%;
+  }.project-page-gallery-item:hover {
+    transition: transform 0.5s;
+    transform: scale(125%);
+  }.project-page-gallery-item:not(hover){
+    transition: transform 0.5s;
+    transform: scale(100%);
   }
 
   .about-page-image-content
