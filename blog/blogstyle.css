@@ -43,6 +43,8 @@
 {
   font-size: 56px;
   text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
 }
 
 .blog-text
@@ -59,6 +61,7 @@
 .blog-byline
 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .blog-date
