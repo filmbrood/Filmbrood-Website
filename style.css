@@ -55,6 +55,10 @@ a
 
   .social-media-links
   {
+    width: 500px;
+    display: grid;
+    grid: auto / 25% 25% 25% 25%;
+    place-items: center;
     padding-top: 5%;
     font-size: 16px;
   }
@@ -239,11 +243,10 @@ a
   }
 
   .social-media-links
-  {
-    margin-top: 10%;
-    transform: translateX(5%);
-    font-size: 16px;
-  }
+    {
+      margin-top: 5%;
+      font-size: 16px;
+    }
 
   .social-media-link-image
   {
@@ -257,7 +260,6 @@ a
     {
       margin-top: 5%;
       font-size: 16px;
-      transform: translateX(-5%);
     }
 
     .social-media-link-image
