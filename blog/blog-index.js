@@ -16,11 +16,46 @@ const blogIndexPage = FWAPI.CreateElement("div", "", "blog-index-page");
 FWAPI.AppendElement("page", blogIndexPage);
 
 const blogIndexHeader = FWAPI.CreateElement("h1", "BLOG POSTS", "blog-index-header");
+FWAPI.AppendElement(blogIndexPage, blogIndexHeader);
 const blogIndexBody = FWAPI.CreateElement("div", "", "blog-index-body");
-FWAPI.AppendElement(blogIndexBody, blogIndexHeader);
+
+class BlogIndexBodyItem
+{
+  constructor(date, link, image, title, desc)
+  {
+    // Initialize members as DOM elements
+    this.div = FWAPI.CreateElement("div", "", "blog-index-body-item");
+    this.date = FWAPI.CreateElement("p", date, "p");
+    this.link = FWAPI.CreateLinkElement(link, "", "a");
+    this.image = FWAPI.CreateImageElement(image, title, "blog-index-body-item-image", "200px");
+    this.header = FWAPI.CreateElement("h2", title, "h2");
+    this.desc = FWAPI.CreateElement("p", desc, "p");
+
+    // Append image to link
+    FWAPI.AppendElement(this.link, this.image);
+
+    // Append all others to div
+    FWAPI.AppendElement(this.div, this.date);
+    FWAPI.AppendElement(this.div, this.link);
+    FWAPI.AppendElement(this.div, this.header);
+    FWAPI.AppendElement(this.div, this.desc);
+  }
+
+  Get()
+  {
+    return this.div;
+  }
+
+  #date;
+  #div;
+  #link;
+  #image;
+  #header;
+  #desc;
+}
 
 let blogIndexBodyItems = [
-  new CinemaPortfolioItem("testblogpost.html", "../images/Logo_2020.png", "Test Post", "A test post")
+  new BlogIndexBodyItem("10/26/2021", "testblogpost.html", "../images/cinema-portfolio/sleep.jpg", "A Test Blog Post", "Lorem Ipsum and other cool junk")
 ];
 
 for (let i = 0; i < blogIndexBodyItems.length; i++)

@@ -21,15 +21,30 @@ p
 .blog-index-body
 {
   display: grid;
+  grid: auto / 33% 33% 33%;
   place-items: center;
 }
 
 .blog-index-body-item
 {
+  margin: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  }.blog-index-body-item:hover{
+  transition: transform 0.5s;
+  transform: scale(110%);
+  }.blog-index-body-item:not(hover){
+  transition: transform 0.5s;
+  transform: scale(100%);
+}
 
+.blog-index-body-item-image
+{
+  height: 200px;
 }
 
 .blog
 {
+  text-align: left;
   margin-right: 5%;
 }
