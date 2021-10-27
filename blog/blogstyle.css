@@ -38,7 +38,8 @@
   .blog
   {
     text-align: left;
-    margin-right: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .blog-header
@@ -153,6 +154,7 @@
   .blog
   {
     text-align: left;
+    margin: 5%;
   }
 
   .blog-header
@@ -165,7 +167,6 @@
 
   .blog-text
   {
-    margin: 5%;
     font-size: 56px;
   }
 
