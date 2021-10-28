@@ -22,12 +22,12 @@ let cinematographyReel = new EmbeddedVimeo("https://player.vimeo.com/video/55270
 cinematographyReel.AppendTo(portfolioPage);
 
 let portfolioItems = [];
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/getting-through.html", "images/cinema-portfolio/getting_through.jpg", "Getting Through", "Short, TBD"));
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/black-card.html", "images/cinema-portfolio/black-card.jpg", "Black Card", "Feature, TBD"));
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sheenas-secret.html", "images/cinema-portfolio/sheenas_secret.jpg", "Sheena's Secret", "Short, TBD"));
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/halloween-special.html", "images/cinema-portfolio/halloween-special.png", "Three and a Half Walls Halloween Special", "Short, 2020"));
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sex-demon.html", "images/cinema-portfolio/sex-demon-7.png", "Double Bill", "Short, 2019"));
-portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sleep.html", "images/cinema-portfolio/sleep.jpg", "Sleep", "Short, 2019"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/getting-through", "images/cinema-portfolio/getting_through.jpg", "Getting Through", "Short, TBD"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/black-card", "images/cinema-portfolio/black-card.jpg", "Black Card", "Feature, TBD"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sheenas-secret", "images/cinema-portfolio/sheenas_secret.jpg", "Sheena's Secret", "Short, TBD"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/halloween-special", "images/cinema-portfolio/halloween-special.png", "Three and a Half Walls Halloween Special", "Short, 2020"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sex-demon", "images/cinema-portfolio/sex-demon-7.png", "Double Bill", "Short, 2019"));
+portfolioItems.push(new CinemaPortfolioItem("portfolio-pages/cinema/sleep", "images/cinema-portfolio/sleep.jpg", "Sleep", "Short, 2019"));
 
 FWAPI.AppendElement(portfolioPage, cinemaPortfolioHeader);
 
