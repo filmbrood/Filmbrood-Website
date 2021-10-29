@@ -191,6 +191,7 @@ h3
   {
     display: grid;
     place-items: center;
+    padding: 5%;
   }
 
   .blog-byline
