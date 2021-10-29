@@ -55,7 +55,7 @@ class BlogIndexBodyItem
 }
 
 let blogIndexBodyItems = [
-  new BlogIndexBodyItem("10.29.2021", "./posts/102921-sleep-retrospective", "../images/cinema-portfolio/sleep.jpg", "Sleeping In", "A Retrospective on Lensing My First Short Film")
+  new BlogIndexBodyItem("10.29.2021", "./posts/102921-sleep-retrospective", "https://i.ibb.co/N70tsdY/DSC0216.jpg", "Sleeping In", "A Retrospective on Lensing My First Short Film")
 ];
 
 for (let i = 0; i < blogIndexBodyItems.length; i++)
