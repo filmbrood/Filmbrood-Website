@@ -77,7 +77,6 @@ export let FWAPI = {
     let navLinkItems = [
       this.CreateLinkElement("/index", "Cinematography", "navlink-item"),
       this.CreateLinkElement("/about", "About", "navlink-item"),
-      this.CreateLinkElement("/blog/blog-index", "Blog", "navlink-item")
     ];
 
     // Iterate through navigation link items
